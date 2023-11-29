@@ -3,6 +3,10 @@
     "displayName": "erb-syntax",
     "description": "Rails HTML ERB language syntax",
     "version": "1.0.0",
+    "publisher": "RyanBates",
+    "author": {
+        "name": "Ryan Bates"
+    },
     "engines": {
         "vscode": "^1.57.0"
     },
@@ -34,5 +38,9 @@
                 "source.ruby": "ruby"
             }
         }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ryanb/vscode-erb-syntax"
     }
 }
