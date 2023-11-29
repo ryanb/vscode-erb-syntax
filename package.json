@@ -1,0 +1,38 @@
+{
+    "name": "ERB Syntax",
+    "displayName": "erb-syntax",
+    "description": "Rails HTML ERB language syntax",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "erb",
+            "aliases": [
+                "erb",
+                "Encapsulated Ruby"
+            ],
+            "extensions": [
+                ".erb",
+                ".rhtml",
+                ".rhtm"
+            ],
+            "configuration": "./language-configuration-erb.json"
+        }],
+        "grammars": [
+        {
+            "language": "erb",
+            "scopeName": "text.html.erb",
+            "path": "./syntaxes/erb.cson.json",
+            "embeddedLanguages": {
+                "source.css": "css",
+                "source.js": "javascript",
+                "source.ruby": "ruby"
+            }
+        }]
+    }
+}
