@@ -1,6 +1,6 @@
 {
-    "name": "ERB Syntax",
-    "displayName": "erb-syntax",
+    "name": "erb-syntax",
+    "displayName": "ERB Syntax",
     "description": "Rails HTML ERB language syntax",
     "version": "1.0.0",
     "publisher": "RyanBates",
